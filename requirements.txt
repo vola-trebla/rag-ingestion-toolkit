@@ -3,3 +3,4 @@ lxml
 pdfplumber
 anthropic
 python-dotenv
+markdown
