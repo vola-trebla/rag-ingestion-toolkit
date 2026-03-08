@@ -11,3 +11,4 @@ output/
 dist/
 build/
 .ruff_cache/
+input/
