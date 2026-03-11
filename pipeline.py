@@ -2,7 +2,7 @@ import os
 from parsers.html_parser import process_html_file
 from parsers.md_parser import process_markdown_file
 from parsers.pdf_parser import process_pdf_file
-from chunkers.chunker import chunk_by_size, chunk_by_sentences
+from chunkers.chunker import chunk_by_sentences
 from extractors.metadata_extractor import extract_simple_metadata, extract_llm_metadata
 
 
