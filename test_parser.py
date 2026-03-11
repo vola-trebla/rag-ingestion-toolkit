@@ -1,5 +1,16 @@
+from chunkers.chunker import chunk_by_sentences
 from extractors.metadata_extractor import extract_llm_metadata, extract_simple_metadata
 
+
+# chunks = chunk_by_size("ABCDEFGHIJKLMNO", 5, 2)
+# for i, chunk in enumerate(chunks):
+#     print(f"chunk {i}: {chunk}")
+
+chunks = chunk_by_sentences(
+    "Milk costs 89 rub. Kefir costs 75 rub. Yogurt costs 120 rub.", 2
+)
+for i, chunk in enumerate(chunks):
+    print(f"chunk {i}: {chunk}")
 
 # result = process_html_file("input/test.html")
 # print(result)
